@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  margin: 0;                      
+}
+
+#background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FDF7DE;
+
+    width: 412px;
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 342px;
+    height: 100vh;
+
+    border-radius: 20px;
+    border: 10px solid #FFF;
+    box-shadow: 0px 0px 10px 2px rgba(255, 140, 0, 0.20);
+
+    position: relative; /*부모*/
+
+    padding-top: 27px;
+    margin: 25px 20px 25px 20px;
+
+}
+
+#backbtn{
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+#backbtn img{
+    width: 30.873px;
+    height: 25.758px;
+    flex-shrink: 0;
+}
+
+#inputtitle input{
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #535353;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    
+    background-color: transparent;
+    border: none;                  
+    outline: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #333;
+    width: 240px;
+} /*read랑 다름...*/
+
+#inputcontent{
+    position: absolute;
+    top: 185px;
+
+    width: 262px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FF8400;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px rgba(255, 140, 0, 0.10);
+}
+
+#inputcontent textarea{
+    background-color: transparent;
+    border: none;                  
+    outline: none;
+    margin-top: 15px;
+    margin-left: 12px;
+
+    color: #535353;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+
+    width: 235px;
+    height: 395px;
+    overflow-y: hidden;
+}
+
+#today{
+    margin-top: 10px;
+    color: #FF8400;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+#sendbtn{
+
+    margin-top: 633px;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+
+    width: 185px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: none;
+    background: #FF9668;
+}
+
+
+#sendbtn h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
