@@ -1,4 +1,5 @@
 const postId = parseInt(localStorage.getItem("clickedPostId"), 10);
+const deletebtn = document.getElementById("deletebtn");
 
 fetch("../data.json")
 .then((response) => response.json())
@@ -11,6 +12,10 @@ const post = data.find((item) => item.postId === postId);
 
 });
 
-document.getElementById("backbtn").addEventListener("click", () => {
-history.back();
-});
+  document.getElementById("backbtn").addEventListener("click", () => {
+  history.back();
+  });
+
+  deletebtn.addEventListener("click", ()=> {
+      window.location.href = "del.html";
+  });

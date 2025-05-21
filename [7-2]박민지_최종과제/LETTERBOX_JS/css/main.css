@@ -59,12 +59,10 @@ body {
     letter-spacing: -0.5px;
 }
 
-/* #textbox{
-    width: 262px;
-    height: 77px;
-    flex-shrink: 0;
-    } */
+#textbox {
 
+    margin-bottom: 225px;
+}
 
 #textbox h1{
     width: 262px;
